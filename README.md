@@ -1,4 +1,4 @@
-# GUI-App-Ocean-Optics-QePro-Spectrometer
+# XEOL-GUI-App-Ocean-Optics-QePro-Spectrometer
 **📌 Overview**
 
 The XEOL GUI is a PyQt5-based application developed for real-time acquisition, visualization, and mapping of optical luminescence spectra at the BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source.
@@ -42,7 +42,7 @@ This GUI integrates with Ocean Optics spectrometers (via seabreeze) and enables 
 
 **📂 Repository Structure**
 
-SpectrometerApp/
+XEOL-GUI-App/
 │── main.py                # your main script (the code you pasted)
 │── interface12.py          # your Qt Designer .ui converted to .py
 │── requirements.txt        # dependencies
