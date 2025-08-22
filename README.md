@@ -1,7 +1,7 @@
 # GUI-App-Ocean-Optics-QePro-Spectrometer
 **📌 Overview**
 
-The XEOL/Fluorescence Map GUI is a PyQt5-based application developed for real-time acquisition, visualization, and mapping of optical luminescence spectra at the BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source.
+The XEOL GUI is a PyQt5-based application developed for real-time acquisition, visualization, and mapping of optical luminescence spectra at the BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source.
 
 This GUI integrates with Ocean Optics spectrometers (via seabreeze) and enables emission, absorption, and luminescence 2D mapping with live plotting, background subtraction, and flexible data saving.
 
@@ -117,7 +117,7 @@ BibTeX:
   
   year         = {2025},
   
-  url          = {https://github.com/username/XEOL-Fluorescence-Map-GUI}
+  url          = {https://github.com/khanlatif001/GUI-App-Ocean-Optics-QePro-Spectrometer}
 }
 
 ---
