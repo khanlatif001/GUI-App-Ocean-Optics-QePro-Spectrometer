@@ -1,42 +1,46 @@
 # GUI-App-Ocean-Optics-QePro-Spectrometer
-📌 Overview
+**📌 Overview**
 
 The XEOL/Fluorescence Map GUI is a PyQt5-based application developed for real-time acquisition, visualization, and mapping of optical luminescence spectra at the BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source.
 
 This GUI integrates with Ocean Optics spectrometers (via seabreeze) and enables emission, absorption, and luminescence 2D mapping with live plotting, background subtraction, and flexible data saving.
 
 ---
-✨ *Features*
+**✨ Features**
 
-- Emission Spectrum Acquisition
+**- 🎛️ Spectrometer Control**
 
-- Adjustable integration time, interval, and scan averaging
+- Adjustable integration time, acquisition interval, and averaging.
 
-- Dark background subtraction
+- Background subtraction for both emission and absorption spectra.
 
-- Live spectrum plotting with crosshair cursor
+**- 📊 Real-time Visualization**
 
-- Absorption Spectrum Acquisition
+- Live spectral plotting with crosshair cursor support.
 
-- Dark background and reference capture
+- Dynamic updates during acquisition.
 
-- Absorption spectra measurement with reset/clear option
+**- 🧪 Measurement Modes**
 
-- Luminescence 2D Mapping
+- Emission Spectrum: Acquire dark background or emission spectra.
 
-- User-defined X, Y, and Z scan ranges (in µm)
+- Absorption Spectrum: Acquire reference, background, and absorption spectra.
 
-- Automated XEOL/Fluorescence 2D map acquisition
+- Luminescence 2D Map: Perform XEOL/fluorescence mapping with spatial resolution.
 
-- Save spectral data in .txt format (emission, background, absorption)
+**- 💾 Data Handling**
 
-- Laser/UV lamp control toggle
+- Save acquired data in .txt format.
 
-- Real-time progress bar indicator
+- Organized export of emission, absorption, and mapping data.
+
+**-⚡ Hardware Control**
+
+- Toggle LASER/UV lamp for excitation.
 
 ---
 
-📂 *Repository Structure*
+**📂 Repository Structure**
 
 SpectrometerApp/
 │── main.py                # your main script (the code you pasted)
@@ -48,18 +52,20 @@ SpectrometerApp/
 │── docs/                   # (optional) documentation/screenshots
 
 ---
-⚙️ Installation
+**⚙️ Installation**
 
-- Clone the repository
+**- Clone the repository**
 
 git clone https://github.com/username/GUI-App-Ocean-Optics-QePro-Spectrometer.git
 
 cd GUI-App-Ocean-Optics-QePro-Spectrometer
 
----
-▶️ Usage
+pip install -r requirements.txt
 
-Run the GUI with:
+---
+**▶️ Usage**
+
+**Run the GUI with:**
 
 python main.py
 
@@ -72,7 +78,7 @@ python main.py
 
 ---
 
-🖼 Example Output
+**🖼 Example Output**
 
 - Live Spectrum Plot (emission spectrum)
 
@@ -80,7 +86,7 @@ python main.py
 
 ---
 
-👤 Author
+**👤 Author**
 
 Latif Ullah Khan
 
@@ -88,9 +94,32 @@ BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source
 
 📅 Date: 21 August 2025
 
-📜 License
+**📜 License**
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
+
+ ---
+**Citing this work**
+
+If you use this GUI in your research, please cite it as:
+
+Latif Ullah Khan, XEOL Spectral Map GUI – A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers, BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source, 2025.
+
+BibTeX:
+
+@software{Khan2025_XEOL_GUI,
+  author       = {Latif Ullah Khan},
+  
+  title        = {XEOL/Fluorescence Map GUI: A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers},
+  
+  institution  = {BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source},
+  
+  year         = {2025},
+  
+  url          = {https://github.com/username/XEOL-Fluorescence-Map-GUI}
+}
+
+---
 
 
