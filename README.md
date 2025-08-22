@@ -56,7 +56,7 @@ XEOL-GUI-App/
 
 **- Clone the repository**
 
-git clone https://github.com/username/GUI-App-Ocean-Optics-QePro-Spectrometer.git
+git clone https://github.com/username/XEOL-GUI-App-Ocean-Optics-QePro-Spectrometer.git
 
 cd GUI-App-Ocean-Optics-QePro-Spectrometer
 
@@ -118,7 +118,7 @@ BibTeX:
   
   year         = {2025},
   
-  url          = {https://github.com/khanlatif001/GUI-App-Ocean-Optics-QePro-Spectrometer}
+  url          = {https://github.com/khanlatif001/XEOL-GUI-App-Ocean-Optics-QePro-Spectrometer}
 }
 
 ---
