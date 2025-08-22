@@ -104,7 +104,7 @@ This project is licensed under the MIT License – see the LICENSE
 
 If you use this GUI in your research, please cite it as:
 
-Latif Ullah Khan, XEOL Spectral Map GUI – A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers, BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source, 2025.
+Latif Ullah Khan, XEOL Spectral GUI – A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers, BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source, 2025.
 
 BibTeX:
 
@@ -112,7 +112,7 @@ BibTeX:
 
   author       = {Latif Ullah Khan},
   
-  title        = {XEOL/Fluorescence Map GUI: A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers},
+  title        = {XEOL Spectral GUI: A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers},
   
   institution  = {BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source},
   
