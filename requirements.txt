@@ -1,0 +1,5 @@
+PyQt5>=5.15
+seabreeze>=2.0.0
+matplotlib>=3.5
+numpy>=1.21
+pandas>=1.3
