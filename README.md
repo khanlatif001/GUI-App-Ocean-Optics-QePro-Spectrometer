@@ -47,9 +47,9 @@ SpectrometerApp/
 │── interface12.py          # your Qt Designer .ui converted to .py
 │── requirements.txt        # dependencies
 │── README.md               # project description
-│── LICENSE                 # (optional) open-source license
-│── data/                   # (optional) store saved spectra
-│── docs/                   # (optional) documentation/screenshots
+│── LICENSE                 # open-source license
+│── data/                   # saved spectra
+│── docs/                   # screenshots
 
 ---
 **⚙️ Installation**
@@ -109,6 +109,7 @@ Latif Ullah Khan, XEOL Spectral Map GUI – A PyQt5-based spectroscopic acquisit
 BibTeX:
 
 @software{Khan2025_XEOL_GUI,
+
   author       = {Latif Ullah Khan},
   
   title        = {XEOL/Fluorescence Map GUI: A PyQt5-based spectroscopic acquisition and mapping tool for Ocean Optics spectrometers},
