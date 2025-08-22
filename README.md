@@ -5,4 +5,5 @@ A PyQt5-based GUI application for real-time acquisition and visualization of spe
 Author: Latif Ullah Khan
 Affiliation: BM08-XAFS/XRF Beamline, SESAME Synchrotron Light Source
 Date: 21 August 2025
+
 ---
