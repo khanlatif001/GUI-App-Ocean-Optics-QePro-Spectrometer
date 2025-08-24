@@ -54,20 +54,20 @@ XEOL-GUI-App/
 ---
 **⚙️ Installation**
 
-**- Clone the repository**
+- **- Clone the repository**
+  ```sh
+  git clone https://github.com/username/XEOL-GUI-App-Ocean-Optics-QePro-Spectrometer.git
 
-git clone https://github.com/username/XEOL-GUI-App-Ocean-Optics-QePro-Spectrometer.git
+  cd GUI-App-Ocean-Optics-QePro-Spectrometer
 
-cd GUI-App-Ocean-Optics-QePro-Spectrometer
-
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 ---
 **▶️ Usage**
 
-**Run the GUI with:**
-
-python main.py
+- **Run the GUI with:**
+  ```sh
+  python main.py
 
 
 - Select acquisition type (Emission, Absorption, or 2D Map)
